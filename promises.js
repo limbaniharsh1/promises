@@ -24,7 +24,7 @@
       let roll = [1,2,3,4,5]
       resolve(roll[1])    //if data found then resolve send data 
       reject('data missing error') // if data not fond then reject send error
-    }, 2000);
+    }, 2000); // you can pass paameter like 2000 , roll
   })
 
   function chekdata(){
